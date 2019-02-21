@@ -262,12 +262,36 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
+  
     background: rgba({{ site.color.primary-rgb }},.7);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     
 }
+
+/* responsive caption text */
+.fa-3x {
+    font-size: 2em;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    .fa-3x {
+      font-size: .5rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    .fa-3x {
+      font-size: .8rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    .fa-3x {
+      font-size: 1.2rem;
+    }
+  }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
@@ -280,7 +304,7 @@ section.success {
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     color: #ededed;
    
 }
