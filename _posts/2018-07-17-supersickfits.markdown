@@ -2,7 +2,7 @@
 layout: default
 modal-id: supersickfits
 title: SuperSick Fits
-img: supersick.png
+img: tweef.png
 alt: image-alt
 progress: 100
 github: SuperSick Fits

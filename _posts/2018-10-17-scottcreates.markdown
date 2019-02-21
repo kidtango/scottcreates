@@ -2,7 +2,7 @@
 layout: default
 modal-id: scott_creates
 title: ScottCreates.io
-img: supersick.png
+img: tweef.png
 alt: image-alt
 progress: 100
 github: ScottCreates.io
