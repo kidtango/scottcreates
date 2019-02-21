@@ -24,6 +24,12 @@ window.onload = function() {
         }
       },
       {
+        breakpoint: 375,
+        options: {
+          maxParticles: 0
+        }
+      },
+      {
         breakpoint: 320,
         options: {
           maxParticles: 0
