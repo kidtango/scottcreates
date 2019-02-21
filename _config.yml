@@ -3,10 +3,13 @@ title: ScottCreates.io
 email: scott.q.tang@gmail.com
 baseurl: /scottcreates
 url: https://kidtango.github.io
-description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
-keywords: 'your keywords, separated by commas'
-skills: 'ABC: [Always] [Be] [Coding]'
+description: 'Web developer Portfolio | React, GraphQL Api, Node.js, express.js, HTML5, css, full stack developer'
+keywords: 'React, NodeJS, GraphQL, HTML5, CSS3, modern web development, Jamstack developer'
+subtitle: 'Scott Q Tang'
+skills: "A dedicated web developer that's always hunger for growth by continuously developing new skills & enhancing existing ones. I'm most passionate about crafting excellent software that can solve real world problems and produce high-quality deliverables for clients.<br><br>Want to know more about me? Take a look at some of my projects and resume by clicking on the menu bar at the top of the page."
 meta_author: Tang Scott
+
+# collections
 
 # Google webmaster tools
 google_verify:
@@ -26,7 +29,7 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 375168 #80B3FF
+  primary: 2a2b30 #80B3FF
   primary-rgb: '204,113,61' #"128,179,255"
   secondary: 26323d #FD6E8A
   secondary-dark: 233140 #A2122F

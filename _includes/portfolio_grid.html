@@ -1,42 +1,44 @@
 <!-- Portfolio Grid Section -->
 <!-- prettier-ignore -->
 
-<section id="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Projects</h2>
-        <hr class="star-primary" />
+<div class="page" id="page-portfolio">
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Portfolio</h2>
+          <hr class="star-primary" />
+          <p style="padding-bottom: 40px">
+            I work with Node.js/express.js, GraphQL, Next.JS, React.JS, Jekyll,
+            Gatsby.JS, HTML5, CSS3. Check out my lastest web
+            development portfolio projects by clicking on the thumbnails below:
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      {% for post in site.posts %}
-      <div class="col-sm-4 portfolio-item">
-        <a
-          href="#portfolioModal-{{ post.modal-id }}"
-          class="portfolio-link"
-          data-toggle="modal"
-        >
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
+
+      <div class="row">
+        {% for post in site.posts %}
+        <div class="col-sm-6  portfolio-item text-center">
+          <a
+            href="#portfolioModal-{{ post.modal-id }}"
+            class="portfolio-link"
+            data-toggle="modal"
+          >
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x">{{ post.title }}</i>
+              </div>
             </div>
-          </div>
-          
-          <img
-           
-            src="img/portfolio/{{ post.img }}"
-            class="img-responsive img-thumbnail rounded"
-            alt="{{ post.alt }}"
-          
-          
-            
-          />
-       
-        </a>
-       
+
+            <img
+              src="img/portfolio/{{ post.img }}"
+              class="img-responsive"
+              alt="{{ post.alt }}"
+            />
+          </a>
+        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
-  </div>
-</section>
+  </section>
+</div>

@@ -1,19 +1,21 @@
+<!-- prettier ignore -->
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
   {% include head.html %}
-  <body id="page-top" class="index">
-    {% include nav.html %} 
-    {% include header.html %} 
-    {% include portfolio_grid.html %} 
-    {% include about.html %} 
-    {% if site.contact =="static" %} 
-    {% include contact_static.html %} 
-    {% elsif site.contact =="disqus" %} 
-    {% include contact_disqus.html %} {% else %} {% include
-    contact.html %} 
-    {% endif %} 
-    {% include footer.html %} 
-    {% include modals.html%} 
+  <body>
+    <!-- Navigation -->
+    {% include nav.html %}
+    <!-- /Navigation -->
+    <!-- pages stack -->
+    <div class="pages-stack">
+      {% include about.html %} {% include portfolio_grid.html %} {% if
+      site.contact =="static" %} {% include contact_static.html %} {% endif %}
+    </div>
+    <!-- /pages stack -->
+    <button class="menu-button"><span>Menu</span></button>
+    {% include modals.html%}
+
+    <canvas class="background"></canvas>
     {% include js.html %}
   </body>
 </html>
