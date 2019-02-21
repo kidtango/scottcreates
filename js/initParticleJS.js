@@ -19,8 +19,7 @@ window.onload = function() {
       {
         breakpoint: 425,
         options: {
-          maxParticles: 30,
-          connectParticles: true
+          maxParticles: 0
         }
       },
       {
