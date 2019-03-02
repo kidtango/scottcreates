@@ -20,7 +20,7 @@
         <div class="col-12">
           <div class="modal-body">
             <h3>{{ post.title }}</h3>
-            <hr />
+            
             {% if post.description %}
             <p>{{post.summary}}</p>
             {% endif %}
@@ -66,13 +66,26 @@
             {% endif %}
             <br>
 
+            <!-- challenges -->
+            <h4><strong>Challenges</strong></h4>
+            <hr width="50%" align="left">
+            {% if post.technical_challenges %}
+            <p>{{ post.technical_challenges }}</p>
+            {% endif %}
+            <br>
+
+            <!-- Lessions learned -->
+            <h4><strong>Lessions Learned</strong></h4>
+            <hr width="50%" align="left">
+            {% if post.lessions_learned%}
+            <p>{{ post.lessions_learned}}</p>
+            {% endif %}
+            <br>
 
             <h4><strong>Tech Stack</strong></h4>
             <p>Code technologies I got involved with while working on this project.</p>
             <hr width="50%" align="left">
-
-            
-            
+]
             {% assign techs = post.tech_stack | split: ',' %}
 
             {% for tech in techs %}
@@ -83,10 +96,6 @@
             </ul>
               
             {% endfor %}
-     
-  
-
-           
 
             <ul class="list-inline item-details">
               {% if post.github %}
