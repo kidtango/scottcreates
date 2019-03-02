@@ -8,7 +8,7 @@ alt: image-alt
 project-date: Oct 2018
 progress: 20
 github: Tweef.io
-project_url: https://https://tweef-react-frontend.herokuapp.com/
+project_url: https://tweef-react-frontend.herokuapp.com/
 githubLink: 'https://github.com/kidtango/need2reef'
 category: Web App
 tech_stack: React.JS, Javascript ES6, Node.JS/Express.JS, Apollo GraphQL Server & Client, Gestalt CSS, PostgreSQL, Context API
