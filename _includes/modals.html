@@ -69,8 +69,8 @@
             <!-- challenges -->
             <h4><strong>Challenges</strong></h4>
             <hr width="50%" align="left">
-            {% if post.technical_challenges %}
-            <p>{{ post.technical_challenges }}</p>
+            {% if post.challenges %}
+            <p>{{ post.challenges }}</p>
             {% endif %}
             <br>
 
@@ -85,7 +85,7 @@
             <h4><strong>Tech Stack</strong></h4>
             <p>Code technologies I got involved with while working on this project.</p>
             <hr width="50%" align="left">
-]
+
             {% assign techs = post.tech_stack | split: ',' %}
 
             {% for tech in techs %}

@@ -11,7 +11,9 @@ github: Tweef.io
 project_url: https://tweef-react-frontend.herokuapp.com/
 githubLink: 'https://github.com/kidtango/need2reef'
 category: Web App
-tech_stack: React.JS, Javascript ES6, Node.JS/Express.JS, Apollo GraphQL Server & Client, Gestalt CSS, PostgreSQL, Context API,
-description: My goal for Tweef.io is to create a social-media platform for the reef keeping community. Tweef provides a mean for vendors and hobbyists to share their love for marine animals. <br><br>In addition to sharing info, Tweef acts a market place for vendors and hobbyist to sell & trade. <br><br> Tweef is in an early stage of prototyping and development. I'm gathering feedback from the community with the prototype to iron out certain concepts and features of the app.
-technical_challenges:
+tech_stack: React.JS, Javascript ES6, Node.JS/Express.JS, Apollo GraphQL Server & Client, Gestalt CSS, PostgreSQL, Prisma & GraphQL Yoga
+summary: Tweef.io is a social media app for the saltwater/reef aquarium hobby  built with React.JS, Node.JS/GraphQL API, and glued together by Apollo client and server.
+description: My goal for Tweef.io is to create a social-media platform for the reef keeping community. Tweef provides a mean for vendors and hobbyists to share their love for marine animals. In addition to sharing info, Tweef acts as market place for vendors and hobbyists to sell & trade.
+challenges: One of the many challenges that I encountered was to determine how to display feeds on the main page. What determines the feeds that the users will see first? The feeds that they liked? Commented on? Or most popular by having many of likes?
+lessions_learned: This project solidifies my understanding of GraphQL and how it works with technologies such as Node.JS, React.JS, and supporting software libraries. The project consists of a GraphQL API that handles complex data relationships and enables users to be authenticated, perform CRUD functions such as creating, deleting comments, and much more. <br><br> I quickly discover that an app can turn into a complex mess without proper structuring and good naming convention. I often have to slow down development to ensure that files are added to appropriately named directories. Large components are broken up into smaller components for ease of reusability and refactoring when needed. I’ve also learned to keep my code clean and simplistic. I believe that simplistic code leads to scalable and maintainable software.
 ---
